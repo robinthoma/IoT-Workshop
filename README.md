@@ -154,7 +154,7 @@ void loop() {
 ```
 
 ##  Connecting sensor to IoT platform
--  Connect Led to D7 of Node MCU
+-  Go to Thinkspeak and make account [Thinkspeak](https://thingspeak.com/)
 
 -  Enter **SSID** and your **Password** of your network in the code
 
@@ -178,15 +178,15 @@ void loop() {
 
 # Astrek Innovations 
 Visit Us
-[Website](www.astrekinnovations.com)
-[Facebook](www.facebook.com/astrekinnovations/)
+[Website](https://www.astrekinnovations.com)
+[Facebook](https://www.facebook.com/astrekinnovations/)
 
 ### Robin Thomas
-[Website](www.robinkthomas.com)
-[Facebook](www.facebook.com/robinthomas82)
-[Linkedin](www.linkedin.com/in/robinkanattuthomas/)
+[Website](https://www.robinkthomas.com)
+[Facebook]https://(www.facebook.com/robinthomas82)
+[Linkedin](https://www.linkedin.com/in/robinkanattuthomas/)
 +919847115594
 ### Alex M Sunny
-[Facebook](www.facebook.com/search4alex)
+[Facebook](https://www.facebook.com/search4alex)
 [Linkedin](https://www.linkedin.com/in/alex-m-sunny-b28b1bb9/)
 +919048218562 
