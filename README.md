@@ -23,6 +23,58 @@
 
 
 ```
+
+
+##  Blinking Using Internet
+- 1. Connect Led to D7 of Node MCU
+
+- 2. Enter **SSID** and your **Password** of your network in the code
+
+- 3. Open Serial Monitor and Note down the IP address shown.
+
+- 4. Type the IP adress in the browser of Mobile /Computer
+
+
+***Code***
+```
+
+
+
+```
+
+##  Connecting sensor to IoT platform
+- 1. Connect Led to D7 of Node MCU
+
+- 2. Enter **SSID** and your **Password** of your network in the code
+
+- 3. Open Serial Monitor and Note down the IP address shown.
+
+- 4. Type the IP adress in the browser of Mobile /Computer
+
+
+***Code***
+```
+
+
+
+```
+
+
+
+
+
+
+## Astrek Innovations 
+Visit Us
+[Website](www.astrekinnovations.com)
+[Facebook](www.facebook.com/astrekinnovations/)
+
+
 [Website](www.robinkthomas.com)
+[Facebook](www.facebook.com/robinthomas82)
+[Linkedin](www.linkedin.com/in/robinkanattuthomas/)
++919847115594
 
-
+[Facebook](www.facebook.com/search4alex)
+[Linkedin](https://www.linkedin.com/in/alex-m-sunny-b28b1bb9/)
++919048218562
