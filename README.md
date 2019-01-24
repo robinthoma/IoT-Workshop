@@ -46,7 +46,7 @@ void loop(){
 ## Basic Ultrasonic  Sensor
 -  Assemble all the parts by following the schematics below.
 
-![Image](https://cdn.instructables.com/F1T/3TQ2/H994BXMB/F1T3TQ2H994BXMB.LARGE.jpg)
+![Image](https://cdn.instructables.com/F1T/3TQ2/H994BXMB/F1T3TQ2H994BXMB.LARGE.jpg?auto=webp&width=600&crop=3:2)
 
 ***Code***
 ```
