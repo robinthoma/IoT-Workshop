@@ -262,12 +262,12 @@ void loop() {
 
 
 ```
-
-
+# Photos
+[Photos](https://photos.app.goo.gl/NQcdFeHp4RJGDBDn6)
 
 ## Other Websites to visit 
 [IFTTT](https://ifttt.com/)
-
+ 
 
 # Astrek Innovations 
 Visit Us
