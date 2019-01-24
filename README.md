@@ -276,7 +276,7 @@ Visit Us
 
 ### Robin Thomas
 [Website](https://www.robinkthomas.com)
-[Facebook](https://(www.facebook.com/robinthomas82)
+[Facebook](https://www.facebook.com/robinthomas82)
 [Linkedin](https://www.linkedin.com/in/robinkanattuthomas/)
 +919847115594
 ### Alex M Sunny
