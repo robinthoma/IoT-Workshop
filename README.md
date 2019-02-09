@@ -263,7 +263,7 @@ void loop() {
 
 ```
 # Photos
-[Photos](https://photos.app.goo.gl/NQcdFeHp4RJGDBDn6)
+[Photos](https://photos.app.goo.gl/tCzCK6fAZfC22QCx8)
 
 ## Other Websites to visit 
 [IFTTT](https://ifttt.com/)
