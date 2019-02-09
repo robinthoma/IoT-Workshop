@@ -1,4 +1,4 @@
-# IoT Workshop VJEC
+# IoT Workshop VJEC Computer Science 
 
 ## Basic PIR Motion Sensor
 -  Assemble all the parts by following the schematics below.
