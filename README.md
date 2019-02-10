@@ -152,6 +152,7 @@ void loop() {
 ## App development for IOT
 - [Visit Mit App inventor](http://appinventor.mit.edu/)
 
+# NODE MCU
 
 ## Basic Blinking Using Node MCU 
 -  Open the preferences window from the Arduino IDE. Go to File >Preferences
@@ -312,12 +313,41 @@ void loop() {
 -  Type the IP adress in the browser of Mobile /Computer
 
 
+
+# Raspberry Pi
+##  Raspberry Pi Headless Setup
+-  Refer this link to connect Respberry Pi in headless setup [Click here](https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0)
+
+
+##  Raspberry Pi GPIO LED
+![Image](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/4/2/4/header_pinout.jpg)
+
+
+Connect the circuit:
+
+-  Use a jumper wire to connect the ground ( Pin 3) of GPIO to rail marked in blue on the breadboard.
+-  Connect the LED with the cathode in the same row as the resistor. Insert the anode in the adjacent row.
+-  Use another jumper cable to connect the GPIO Pin 21 ( 3.3 V) in the same row as the anode of LED.
 ***Code***
 ```
-
-
+import RPi.GPIO as GPIO
+import time 
+GPIO.setmode(GPIO.BCM) 
+GPIO.setwarnings(False) 
+GPIO.setup(21,GPIO.OUT) 
+print "LED on" 
+GPIO.output(21,GPIO.HIGH) 
+time.sleep(10) 
+print "LED off" 
+GPIO.output(21,GPIO.LOW)
 
 ```
+
+##  Raspberry Pi Camera
+
+##  Raspberry Pi Image processing Using Tensorflow
+
+
 # Photos
 [Photos](https://photos.app.goo.gl/tCzCK6fAZfC22QCx8)
 
