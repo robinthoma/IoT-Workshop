@@ -328,6 +328,7 @@ Connect the circuit:
 -  Use a jumper wire to connect the ground ( Pin 3) of GPIO to rail marked in blue on the breadboard.
 -  Connect the LED with the cathode in the same row as the resistor. Insert the anode in the adjacent row.
 -  Use another jumper cable to connect the GPIO Pin 21 ( 3.3 V) in the same row as the anode of LED.
+
 ***Code***
 ```
 import RPi.GPIO as GPIO
@@ -335,15 +336,67 @@ import time
 GPIO.setmode(GPIO.BCM) 
 GPIO.setwarnings(False) 
 GPIO.setup(21,GPIO.OUT) 
-print "LED on" 
-GPIO.output(21,GPIO.HIGH) 
-time.sleep(10) 
-print "LED off" 
-GPIO.output(21,GPIO.LOW)
+While True:
+   print "LED on" 
+   GPIO.output(21,GPIO.HIGH) 
+   time.sleep(10) 
+   print "LED off" 
+   GPIO.output(21,GPIO.LOW)
 
 ```
 
 ##  Raspberry Pi Camera
+
+
+Open Python 3 from the main menu:
+
+Open Python 3
+
+Open a new file and save it as camera.py. It’s important that you do not save it as picamera.py.
+
+Enter the following code:
+***Code***
+```
+from picamera import PiCamera
+from time import sleep
+
+camera = PiCamera()
+
+camera.start_preview()
+sleep(10)
+camera.stop_preview()
+```
+Save with Ctrl + S and run with F5. The camera preview should be shown for 10 seconds, and then close. Move the camera around to preview what the camera sees.
+
+The live camera preview should fill the screen like so:
+
+Image preview
+
+Note that the camera preview only works when a monitor is connected to the Pi, so remote access (such as SSH and VNC) will not allow you to see the camera preview
+
+If your preview was upside-down, you can rotate it with the following code:
+***Code***
+```
+camera.rotation = 180
+camera.start_preview()
+sleep(10)
+camera.stop_preview()
+```
+You can rotate the image by 90, 180, or 270 degrees, or you can set it to 0 to reset.
+
+You can alter the transparency of the camera preview by setting an alpha level:
+***Code***
+```
+from picamera import PiCamera
+from time import sleep
+
+camera = PiCamera()
+
+camera.start_preview(alpha=200)
+sleep(10)
+camera.stop_preview()
+```
+alpha can be any value between 0 and 255.
 
 ##  Raspberry Pi Image processing Using Tensorflow
 
