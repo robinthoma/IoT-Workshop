@@ -398,7 +398,38 @@ camera.stop_preview()
 ```
 alpha can be any value between 0 and 255.
 
-##  Raspberry Pi Image processing Using Tensorflow
+##  Raspberry Pi Camera Terminal Commands 
+
+Basic usage of raspistill
+-  With the camera module connected and enabled, enter the following command in the Terminal to take a picture:
+
+```
+raspistill -o cam.jpg
+
+```
+
+-  Upside-down photo
+
+-  In this example the camera has been positioned upside-down. If the camera is placed in this position, the image must be flipped to appear the right way up.
+
+-  Vertical Flip & Horizontal Flip
+-  With the camera placed upside-down, the image must be rotated 180° to be displayed correctly. The way to correct for this is to apply both a vertical and a horizontal flip by passing in the -vf and -hf flags:
+
+```
+raspistill -vf -hf -o cam2.jpg
+```
+-  Vertical and horizontal flipped photo
+
+-  Now the photo has been captured correctly.
+
+ Resolution
+-  The camera module takes pictures at a resolution of 2592 x 1944 which is 5,038,848 pixels or 5 megapixels.
+
+File size
+-  A photo taken with the camera module will be around 2.4MB. This is about 425 photos per GB.
+
+-  Taking 1 photo per minute would take up 1GB in about 7 hours. This is a rate of about 144MB per hour or 3.3GB per day.
+
 
 
 # Photos
