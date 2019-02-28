@@ -1,4 +1,4 @@
-# IoT Workshop VJEC Computer Science 
+# IoT Workshop VJEC Electrical 
 
 ## Basic Serial Communication
 
@@ -433,7 +433,7 @@ File size
 
 
 # Photos
-[Photos](https://photos.app.goo.gl/tCzCK6fAZfC22QCx8)
+[Photos](https://photos.app.gooo.gl/tCzCK6fAZfC22QCx8)
 
 ## Other Websites to visit 
 [IFTTT](https://ifttt.com/)
