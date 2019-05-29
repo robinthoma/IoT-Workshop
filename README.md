@@ -1,4 +1,4 @@
-# IoT Workshop VJEC Electrical 
+
 
 ## Basic Serial Communication
 
@@ -432,8 +432,7 @@ File size
 
 
 
-# Photos
-[Photos](https://photos.app.gooo.gl/tCzCK6fAZfC22QCx8)
+
 
 ## Other Websites to visit 
 [IFTTT](https://ifttt.com/)
@@ -449,7 +448,4 @@ Visit Us
 [Facebook](https://www.facebook.com/robinthomas82)
 [Linkedin](https://www.linkedin.com/in/robinkanattuthomas/)
 +919847115594
-### Alex M Sunny
-[Facebook](https://www.facebook.com/search4alex)
-[Linkedin](https://www.linkedin.com/in/alex-m-sunny-b28b1bb9/)
-+919048218562 
+
